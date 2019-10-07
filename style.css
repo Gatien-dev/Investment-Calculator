@@ -1,1 +1,62 @@
 
+
+body{
+    font-family: "source sans pro";
+    background: rgba(40, 40, 40, 0.178)
+}
+h1{
+    margin:0;
+    text-align: center;
+    background: rgba(40, 20, 20, 0.7)
+}
+body>h1{
+    color:white;
+}
+main div input[type="range"]{
+display: inline-block;
+width:70%;
+background-color: red;
+}
+
+main{
+    padding:20px;
+    width:50%;
+    margin:auto;
+    border:2px solid black;
+    height: 100vh;
+}
+main div label{
+display: inline-block;
+width:50%;
+margin:auto;
+margin-top:10px;
+}
+main div input{
+    height: 30px;
+}
+main button{
+    display: inline-block;
+    transition: 0.5s;
+    width:15%;
+    height:25px;
+    background:white;
+    margin:2px;
+    border:2px solid rgba(40, 20, 20, 0.7);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius:4px;
+    font-family: "source sans pro"
+}
+main button:hover{
+    background: rgba(40, 20, 20, 0.4);
+    cursor:pointer;
+    color:white;
+}
+main button:last-of-type{
+margin:0 auto;
+width:30%;
+}
+main div:last-of-type{
+    text-align: center;
+    padding:20px;
+}

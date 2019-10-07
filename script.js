@@ -15,7 +15,7 @@
 
             }
         }, 100)
-           as
+           
 
         function initUi() {
             let investissement, duree, retrait, retirer, pourcentage;
