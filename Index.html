@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta title="Calculator">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Calculateur d'investissement</h1>
+    <main>
+        <div>
+            <label for="#montant">Montant Investi</label>
+            <input type="number" id="montant" step=500 data-type="currency">
+        </div>
+        <div>
+            <label for="#duree">Nombre de mois d'investissement</label>
+            <input type="number" id="duree">
+        </div>
+
+        <div>
+            <label for="retrait">Montant Mensuel retiré</label>
+            <input type="number" id="retrait">
+        </div>
+        <div>
+            <input type="range" id="pourcentage" value="40" step="1">
+            <label for="#pourcentage">40%</label></div>
+        <div>
+            <label for="retirer">Retraits Mensuels</label>
+            <input type="checkbox" id="retirer" checked>
+        </div>
+        <button id="valider">Calculer</button>
+        <section>
+            <h1>Resultats</h1>
+        <label id="solde_compte">Resultat:</label>
+        <label id="total_retrait">Total retire:</label>
+        <label id="interets">Interets totaux:</label>
+        </section>
+    </main>
+<script type="text/javascript"src="script.js"></script>
+
+
+
+</body>
+
+</html>
